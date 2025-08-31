@@ -1,6 +1,7 @@
 baseURL: "https://n0sandb0x.github.io/"
 title: n0sandb0x Blog
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: false
