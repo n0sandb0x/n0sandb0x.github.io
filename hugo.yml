@@ -8,7 +8,9 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+services:
+  googleAnalytics:
+    ID: UA-123-45
 
 minify:
   disableXML: true
@@ -76,12 +78,6 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog
-
-  socialIcons:
-    - name: x
-      url: "https://x.com/n0sandb0x"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/iamsaranshs/"
 
   analytics:
     google:
